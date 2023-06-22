@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://bit.dev/docs/workspace/workspace-configuration
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -20,11 +20,19 @@
      * choose the package manager for Bit to use. you can choose between 'yarn', 'pnpm'
      */
     "packageManager": "teambit.dependencies/pnpm",
-    "rootComponents": true,
     "policy": {
-      "dependencies": {},
-      "peerDependencies": {}
-    }
+      "dependencies": {
+        "@teambit/base-react.themes.theme-provider": "^0.0.1",
+        "@testing-library/react": "^14.0.0",
+        "@types/jest": "^26.0.0"
+      },
+      "peerDependencies": {
+        // "@types/jest": "^26.0.0"
+      }
+    },
+    "linkCoreAspects": true,
+    "rootComponents": true,
+    "strictPeerDependencies": true
   },
   /**
    * workspace variants allow to set different subsets of configuration for components in your
@@ -42,6 +50,20 @@
        * uncomment to apply the chosen environment on all components.
        **/
       // "teambit.react/react": { }
+      "teambit.pkg/pkg": {
+        "packageManagerPublishArgs": [
+          "--access public"
+        ],
+        "packageJson": {
+          "private": false,
+          "name": "@corpdk/{name}"
+        }
+      }
     }
+  },
+  "teambit.generator/generator": {
+    "envs": [
+      "corpdk.cdk/envs/my-react-env"
+    ]
   }
 }

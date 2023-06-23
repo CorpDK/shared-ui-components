@@ -16,40 +16,22 @@
         "rootDir": "components/corpdk/cdk/envs/my-react-env"
     },
     "themes/color-provider": {
-        "scope": "",
-        "version": "",
+        "scope": "corpdk.cdk",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/themes/color-provider",
-        "config": {
-            "teambit.envs/envs": {
-                "env": "corpdk.cdk/envs/my-react-env"
-            },
-            "corpdk.cdk/envs/my-react-env": {}
-        }
+        "rootDir": "components/corpdk/cdk/themes/color-provider"
     },
     "themes/theme-dark": {
-        "scope": "",
-        "version": "",
+        "scope": "corpdk.cdk",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/themes/theme-dark",
-        "config": {
-            "corpdk.cdk/envs/my-react-env": {},
-            "teambit.envs/envs": {
-                "env": "corpdk.cdk/envs/my-react-env"
-            }
-        }
+        "rootDir": "components/corpdk/cdk/themes/theme-dark"
     },
     "themes/theme-provider": {
-        "scope": "",
-        "version": "",
+        "scope": "corpdk.cdk",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/themes/theme-provider",
-        "config": {
-            "corpdk.cdk/envs/my-react-env": {},
-            "teambit.envs/envs": {
-                "env": "corpdk.cdk/envs/my-react-env"
-            }
-        }
+        "rootDir": "components/corpdk/cdk/themes/theme-provider"
     },
     "$schema-version": "15.0.0"
 }

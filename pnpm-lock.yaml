@@ -77,6 +77,74 @@ importers:
         specifier: 5.9.5
         version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
+  components/corpdk/cdk/themes/color-provider:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.24
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/cdk/themes/theme-dark:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.24
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
   components/corpdk/cdk/themes/theme-provider:
     dependencies:
       '@teambit/base-react.themes.theme-provider':
@@ -119,11 +187,21 @@ importers:
       '@corpdk/envs.my-react-env':
         specifier: workspace:*
         version: file:components/corpdk/cdk/envs/my-react-env(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/themes.color-provider':
+        specifier: workspace:*
+        version: file:components/corpdk/cdk/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/themes.theme-dark':
+        specifier: workspace:*
+        version: file:components/corpdk/cdk/themes/theme-dark(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/themes.theme-provider':
         specifier: workspace:*
         version: file:components/corpdk/cdk/themes/theme-provider(react-dom@17.0.2)(react@17.0.2)
     dependenciesMeta:
       '@corpdk/envs.my-react-env':
+        injected: true
+      '@corpdk/themes.color-provider':
+        injected: true
+      '@corpdk/themes.theme-dark':
         injected: true
       '@corpdk/themes.theme-provider':
         injected: true
@@ -133,11 +211,21 @@ importers:
       '@corpdk/envs.my-react-env':
         specifier: workspace:*
         version: file:components/corpdk/cdk/envs/my-react-env(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/themes.color-provider':
+        specifier: workspace:*
+        version: file:components/corpdk/cdk/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/themes.theme-dark':
+        specifier: workspace:*
+        version: file:components/corpdk/cdk/themes/theme-dark(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/themes.theme-provider':
         specifier: workspace:*
         version: file:components/corpdk/cdk/themes/theme-provider(react-dom@17.0.2)(react@17.0.2)
     dependenciesMeta:
       '@corpdk/envs.my-react-env':
+        injected: true
+      '@corpdk/themes.color-provider':
+        injected: true
+      '@corpdk/themes.theme-dark':
         injected: true
       '@corpdk/themes.theme-provider':
         injected: true
@@ -181,6 +269,45 @@ packages:
       react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     dev: false
 
+  file:components/corpdk/cdk/themes/color-provider(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/cdk/themes/color-provider, type: directory}
+    id: file:components/corpdk/cdk/themes/color-provider
+    name: '@corpdk/themes.color-provider'
+    version: 0.0.1-new
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/cdk/themes/theme-dark(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/cdk/themes/theme-dark, type: directory}
+    id: file:components/corpdk/cdk/themes/theme-dark
+    name: '@corpdk/themes.theme-dark'
+    version: 0.0.1-new
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      '@corpdk/themes.theme-provider': file:components/corpdk/cdk/themes/theme-provider(react-dom@17.0.2)(react@17.0.2)
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
   file:components/corpdk/cdk/themes/theme-provider(react-dom@17.0.2)(react@17.0.2):
     resolution: {directory: components/corpdk/cdk/themes/theme-provider, type: directory}
     id: file:components/corpdk/cdk/themes/theme-provider
@@ -195,6 +322,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
+      '@corpdk/themes.color-provider': file:components/corpdk/cdk/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
       '@teambit/base-react.themes.theme-provider': 0.0.1(react-dom@17.0.2)(react@17.0.2)
       core-js: registry.npmjs.org/core-js@3.31.0
       react: registry.npmjs.org/react@17.0.2

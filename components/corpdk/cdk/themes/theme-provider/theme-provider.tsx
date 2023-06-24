@@ -2,8 +2,13 @@ import { createTheme } from "@teambit/base-react.themes.theme-provider";
 /* import the default tokens from the file generated in the previous step */
 import { defaultDesignTokenValues } from "./design-tokens";
 import { defaultColorTokenValues } from "@corpdk/themes.color-provider";
+import { defaultFontTokenValues } from "@corpdk/themes.font-provider";
 
-const defaultThemeTokens = {...defaultDesignTokenValues, ...defaultColorTokenValues}
+const defaultThemeTokens = {
+  ...defaultDesignTokenValues,
+  ...defaultColorTokenValues,
+  ...defaultFontTokenValues,
+};
 
 /* create a theme schema to standardize future theme extensions */
 export type ThemeSchema = typeof defaultThemeTokens;

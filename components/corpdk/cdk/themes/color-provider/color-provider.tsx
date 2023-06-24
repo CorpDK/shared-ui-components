@@ -1,6 +1,5 @@
-export const defaultColorTokenValues = {
-  primaryColorBackground: "#568cb0",
-  primaryColorText: "#ebebeb",
-}
+import { defaultColorTokenValues } from "./design-tokens";
+
+export { defaultColorTokenValues };
 
 export type ColorSchema = typeof defaultColorTokenValues;

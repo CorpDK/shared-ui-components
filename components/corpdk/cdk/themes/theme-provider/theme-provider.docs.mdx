@@ -1,0 +1,32 @@
+---
+description: A ThemeProvider component.
+---
+
+import { Theme } from "./theme-provider";
+import { Button } from "./button.example";
+
+A component that does something special and renders text in a div.
+
+### Component defination usage
+
+```ts
+const Button = () => {
+  const myStyle: CSSProperties = {
+    backgroundColor: "var(--primary-color-background)",
+    color: "var(--primary-color-text)",
+    padding: "var(--button-padding-medium)",
+    fontWeight: "var(--button-font-weight)",
+  };
+  return <button style={myStyle}>A Button Styled using CSS Props</button>;
+};
+```
+
+### Application usage
+
+```ts live
+() => (
+  <Theme.ThemeProvider>
+    <Button />
+  </Theme.ThemeProvider>
+);
+```

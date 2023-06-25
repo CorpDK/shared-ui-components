@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://bit.dev/docs/workspace/workspace-configuration
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -53,7 +53,17 @@
         ],
         "packageJson": {
           "private": false,
-          "name": "@corpdk/{name}"
+          "name": "@corpdk/{name}",
+          "license": "MIT",
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/CorpDK/shared-ui-components.git"
+          },
+          "author": "CorpDK",
+          "bugs": {
+            "url": "https://github.com/CorpDK/shared-ui-components/issues"
+          },
+          "homepage": "https://github.com/CorpDK/shared-ui-components"
         }
       }
     }

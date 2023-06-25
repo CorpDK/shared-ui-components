@@ -9,6 +9,7 @@ services:
       net.ipv6.conf.default.disable_ipv6: 0
     ports:
       - 3000:3000
+      - 3300:3300
     volumes:
       - ./:/code
 

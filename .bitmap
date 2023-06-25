@@ -29,15 +29,27 @@
     },
     "themes/theme-dark": {
         "scope": "corpdk.cdk",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "components/corpdk/cdk/themes/theme-dark"
     },
     "themes/theme-provider": {
         "scope": "corpdk.cdk",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "components/corpdk/cdk/themes/theme-provider"
+    },
+    "themes/theme-selector": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "components/corpdk/cdk/themes/theme-selector",
+        "config": {
+            "teambit.envs/envs": {
+                "env": "corpdk.cdk/envs/my-react-env"
+            },
+            "corpdk.cdk/envs/my-react-env": {}
+        }
     },
     "$schema-version": "15.0.0"
 }

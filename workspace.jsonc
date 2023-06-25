@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://bit.dev/docs/workspace/workspace-configuration
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -22,13 +22,10 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@teambit/base-react.themes.theme-provider": "^0.0.1",
         "@testing-library/react": "^14.0.0",
-        "@types/jest": "^26.0.0"
+        "classnames": "^2.3.2"
       },
-      "peerDependencies": {
-        // "@types/jest": "^26.0.0"
-      }
+      "peerDependencies": {}
     },
     "linkCoreAspects": true,
     "rootComponents": true,

@@ -1,8 +1,11 @@
 name: bit-dev-server
 services:
   bit:
-    build: .
-    image: corpdk/bit-dev
+    build:
+      context: .
+      args:
+        BIT_VERSION: ${BIT_VERSION}
+    image: corpdk/bit-dev:${BIT_VERSION}
     container_name: bit
     sysctls:
       net.ipv6.conf.all.disable_ipv6: 0

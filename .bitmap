@@ -17,31 +17,31 @@
     },
     "themes/color-provider": {
         "scope": "corpdk.cdk",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "components/corpdk/cdk/themes/color-provider"
     },
     "themes/font-provider": {
         "scope": "corpdk.cdk",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "components/corpdk/cdk/themes/font-provider"
     },
     "themes/theme-dark": {
         "scope": "corpdk.cdk",
-        "version": "0.0.7",
+        "version": "0.0.9",
         "mainFile": "index.ts",
         "rootDir": "components/corpdk/cdk/themes/theme-dark"
     },
     "themes/theme-provider": {
         "scope": "corpdk.cdk",
-        "version": "0.0.7",
+        "version": "0.0.9",
         "mainFile": "index.ts",
         "rootDir": "components/corpdk/cdk/themes/theme-provider"
     },
     "themes/theme-selector": {
         "scope": "corpdk.cdk",
-        "version": "0.0.2",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "components/corpdk/cdk/themes/theme-selector"
     },

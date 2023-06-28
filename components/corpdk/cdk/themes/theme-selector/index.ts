@@ -1,2 +1,6 @@
-export { ThemeSelector } from './theme-selector';
-export type { ThemeSelectorProps } from './theme-selector';
+export {
+  ThemeSelectorProvider,
+  useThemeSelector,
+  getInitialThemeSchemeOptions,
+  setThemeScheme,
+} from "./theme-selector";

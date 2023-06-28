@@ -41,7 +41,7 @@
     },
     "themes/theme-selector": {
         "scope": "corpdk.cdk",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "components/corpdk/cdk/themes/theme-selector"
     },

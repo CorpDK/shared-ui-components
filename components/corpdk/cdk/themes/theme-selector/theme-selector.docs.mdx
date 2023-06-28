@@ -18,15 +18,15 @@ A component that does something special and renders text in a div.
 ```js live
 () => {
   const defaultThemeVals = getInitialThemeSchemeOptions();
-  const [scheme, setScheme] = useState(defaultThemeVals.scheme);
+  const [dark, setDark] = useState(defaultThemeVals.dark);
   const [theme, setTheme] = useState(defaultThemeVals.theme);
   const availableThemes = ["default", "pink", "red"];
   return (
     <ThemeSelectorProvider
       value={{
-        colorScheme: scheme,
+        dark: dark,
         theme: theme,
-        setColorScheme: setScheme,
+        setDark: setDark,
         setTheme: setTheme,
         availableThemes: availableThemes,
       }}
@@ -42,23 +42,20 @@ A component that does something special and renders text in a div.
 ```js
 const App = () => {
   const defaultThemeVals = getInitialThemeSchemeOptions();
-  const [scheme, setScheme] = useState(defaultThemeVals.scheme);
+  const [dark, setDark] = useState(defaultThemeVals.dark);
   const [theme, setTheme] = useState(defaultThemeVals.theme);
   const availableThemes = ["default", "pink", "red"];
   return (
     <ThemeSelectorProvider
       value={{
-        colorScheme: scheme,
+        dark: dark,
         theme: theme,
-        setColorScheme: setScheme,
+        setDark: setDark,
         setTheme: setTheme,
         availableThemes: availableThemes,
       }}
     >
-      <Theme.ThemeProvider
-        overrides={themeArray[theme]}
-        dark={scheme === "dark"}
-      >
+      <Theme.ThemeProvider overrides={themeArray[theme]} dark={dark}>
         <AppContent />
       </Theme.ThemeProvider>
     </ThemeSelectorProvider>
@@ -74,11 +71,7 @@ const App = () => {
 export const ExampleSwitcher = () => {
   const context = useThemeSelector();
   const toggle = () => {
-    if (context.colorScheme === "dark") {
-      setThemeScheme(context, { scheme: "light" });
-    } else {
-      setThemeScheme(context, { scheme: "dark" });
-    }
+    setThemeScheme(context, { dark: !context.dark });
   };
 
   return (
@@ -118,11 +111,7 @@ export const ExampleComponent = () => {
 export const ExampleComponent = () => {
   const context = useThemeSelector();
   const toggle = () => {
-    if (context.colorScheme === "dark") {
-      setThemeScheme(context, { scheme: "light" });
-    } else {
-      setThemeScheme(context, { scheme: "dark" });
-    }
+    setThemeScheme(context, { dark: !context.dark });
   };
 
   const selector = (event) => {
@@ -147,7 +136,7 @@ export const ExampleComponent = () => {
       <br />
       Current Theme: {context.theme}
       <br />
-      Current Cookie Value: color-scheme: {cookie.get("color-scheme")}
+      Current Cookie Value: dark-mode: {cookie.get("dark-mode")}
       {" | "}
       theme-name: {cookie.get("theme-name")}
       <br />

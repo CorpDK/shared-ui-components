@@ -5,11 +5,7 @@ import Cookies from "universal-cookie";
 export const ExampleComponent = () => {
   const context = useThemeSelector();
   const toggle = () => {
-    if (context.colorScheme === "dark") {
-      setThemeScheme(context, { scheme: "light" });
-    } else {
-      setThemeScheme(context, { scheme: "dark" });
-    }
+    setThemeScheme(context, { dark: !context.dark });
   };
 
   const selector = (event) => {
@@ -30,11 +26,12 @@ export const ExampleComponent = () => {
   const cookie = new Cookies();
   return (
     <>
-      Current Scheme: {context.colorScheme}
+      Current Scheme: {context.dark ? "Dark" : "Light"}
       <br />
       Current Theme: {context.theme}
       <br />
-      Current Cookie Value: color-scheme: {cookie.get("color-scheme")}{" | "}
+      Current Cookie Value: dark-mode: {cookie.get("dark-mode")}
+      {" | "}
       theme-name: {cookie.get("theme-name")}
       <br />
       <button onClick={toggle}>Toggle Theme</button>

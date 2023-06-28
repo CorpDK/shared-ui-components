@@ -2,11 +2,11 @@ import { createContext, useContext } from "react";
 import Cookies from "universal-cookie";
 
 const defaultThemeSelectorValues = {
-  colorScheme: "light",
+  dark: false,
   theme: "default",
   availableThemes: ["default"],
-  setColorScheme: (value) => {},
-  setTheme: (value) => {},
+  setDark: (value: boolean) => {},
+  setTheme: (value: string) => {},
 };
 
 const ThemeSelectorContext = createContext(defaultThemeSelectorValues);
@@ -15,19 +15,16 @@ export const ThemeSelectorProvider = ThemeSelectorContext.Provider;
 
 export const useThemeSelector = () => useContext(ThemeSelectorContext);
 
-const getPreferredColorScheme = () => {
-  const preffersDarkMode: boolean = window.matchMedia(
-    "(prefers-color-scheme: dark)"
-  ).matches;
-  return preffersDarkMode ? "dark" : "light";
+const getIfUserPreferrsDarkMode = () => {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches;
 };
 
 export const getInitialThemeSchemeOptions = () => {
   const cookie = new Cookies();
-  const scheme = cookie.get("color-scheme");
-  const theme = cookie.get("theme-name");
+  const dark: boolean = cookie.get("dark-mode");
+  const theme: string = cookie.get("theme-name");
   return {
-    scheme: scheme ? scheme : getPreferredColorScheme(),
+    dark: dark ? dark : getIfUserPreferrsDarkMode(),
     theme: theme ? theme : "default",
   };
 };
@@ -35,18 +32,18 @@ export const getInitialThemeSchemeOptions = () => {
 export const setThemeScheme = (
   context: typeof defaultThemeSelectorValues,
   params: {
-    scheme?: "light" | "dark";
+    dark?: boolean;
     theme?: string;
   }
 ) => {
   const cookie = new Cookies();
-  if (params.scheme) {
-    if (params.scheme === getPreferredColorScheme()) {
-      cookie.remove("color-scheme");
+  if (params.dark !== undefined) {
+    if (params.dark === getIfUserPreferrsDarkMode()) {
+      cookie.remove("dark-mode");
     } else {
-      cookie.set("color-scheme", params.scheme);
+      cookie.set("dark-mode", params.dark);
     }
-    context.setColorScheme(params.scheme);
+    context.setDark(params.dark);
   }
   if (params.theme) {
     if (params.theme === "default") {

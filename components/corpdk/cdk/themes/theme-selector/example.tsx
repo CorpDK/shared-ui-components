@@ -8,14 +8,11 @@ export const ExampleComponent = () => {
     setThemeScheme(context, { dark: !context.dark });
   };
 
-  const selector = (event) => {
+  const selector = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setThemeScheme(context, { theme: event.target.value });
   };
 
-  const options: React.DetailedHTMLProps<
-    React.OptionHTMLAttributes<HTMLOptionElement>,
-    HTMLOptionElement
-  >[] = [];
+  const options: React.JSX.IntrinsicElements["option"][] = [];
   context.availableThemes.forEach((element) => {
     options.push(
       <option key={element} value={element}>

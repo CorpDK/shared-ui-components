@@ -54,7 +54,7 @@ const ThemeProvider = ({
   );
 };
 
-function computeCssVars(theme): React.CSSProperties {
+const computeCssVars = (theme): React.CSSProperties => {
   return Object.entries(theme)
     .map(([key, val]: [string, any]): [string, any] => {
       const varName = key.replace(/[A-Z]/g, "-$&").toLowerCase();

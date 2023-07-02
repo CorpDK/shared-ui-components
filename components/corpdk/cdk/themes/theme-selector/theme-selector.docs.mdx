@@ -2,17 +2,147 @@
 description: A ThemeSelector component.
 ---
 
-import { ThemeSelector } from './theme-selector';
+import { useState } from "react";
+import {
+  ThemeSelectorProvider,
+  useThemeSelector,
+  getInitialThemeSchemeOptions,
+  setThemeScheme,
+} from "./theme-selector";
+import { ExampleComponent } from "./example";
 
 A component that does something special and renders text in a div.
 
-### Component usage
-```js
-<ThemeSelector>Hello world!</ThemeSelector>
-```
-
-### Render hello world!
+### Component Demo
 
 ```js live
-<ThemeSelector>Hello world!</ThemeSelector>
+() => {
+  const defaultThemeVals = getInitialThemeSchemeOptions();
+  const [dark, setDark] = useState(defaultThemeVals.dark);
+  const [theme, setTheme] = useState(defaultThemeVals.theme);
+  const availableThemes = ["default", "pink", "red"];
+  return (
+    <ThemeSelectorProvider
+      value={{
+        dark: dark,
+        theme: theme,
+        setDark: setDark,
+        setTheme: setTheme,
+        availableThemes: availableThemes,
+      }}
+    >
+      <ExampleComponent />
+    </ThemeSelectorProvider>
+  );
+};
+```
+
+### Component usage
+
+```js
+const App = () => {
+  const defaultThemeVals = getInitialThemeSchemeOptions();
+  const [dark, setDark] = useState(defaultThemeVals.dark);
+  const [theme, setTheme] = useState(defaultThemeVals.theme);
+  const availableThemes = ["default", "pink", "red"];
+  return (
+    <ThemeSelectorProvider
+      value={{
+        dark: dark,
+        theme: theme,
+        setDark: setDark,
+        setTheme: setTheme,
+        availableThemes: availableThemes,
+      }}
+    >
+      <Theme.ThemeProvider overrides={themeArray[theme]} dark={dark}>
+        <AppContent />
+      </Theme.ThemeProvider>
+    </ThemeSelectorProvider>
+  );
+};
+```
+
+### Selector and Switcher example Implementation
+
+#### Switcher
+
+```js
+export const ExampleSwitcher = () => {
+  const context = useThemeSelector();
+  const toggle = () => {
+    setThemeScheme(context, { dark: !context.dark });
+  };
+
+  return (
+    <>
+      <ToggleComponent onClick={toggle} />
+    </>
+  );
+};
+```
+
+#### Selector
+
+```js
+export const ExampleComponent = () => {
+  const context = useThemeSelector();
+
+  const selector = (event) => {
+    setThemeScheme(context, { theme: event.target.value });
+  };
+
+  const options: OptionItem[] = [];
+  context.availableThemes.forEach((element) => {
+    options.push(<OptionItem value={element} />);
+  });
+
+  return (
+    <>
+      <SelectComponent onChange={selector}>{options}</SelectComponent>
+    </>
+  );
+};
+```
+
+#### Example Component Used for Demonstration
+
+```js
+export const ExampleComponent = () => {
+  const context = useThemeSelector();
+  const toggle = () => {
+    setThemeScheme(context, { dark: !context.dark });
+  };
+
+  const selector = (event) => {
+    setThemeScheme(context, { theme: event.target.value });
+  };
+
+  const options: React.DetailedHTMLProps<
+    React.OptionHTMLAttributes<HTMLOptionElement>,
+    HTMLOptionElement
+  >[] = [];
+  context.availableThemes.forEach((element) => {
+    options.push(
+      <option key={element} value={element}>
+        {element}
+      </option>
+    );
+  });
+  const cookie = new Cookies();
+  return (
+    <>
+      Current Scheme: {context.colorScheme}
+      <br />
+      Current Theme: {context.theme}
+      <br />
+      Current Cookie Value: dark-mode: {cookie.get("dark-mode")}
+      {" | "}
+      theme-name: {cookie.get("theme-name")}
+      <br />
+      <button onClick={toggle}>Toggle Theme</button>
+      <select onChange={selector}>{options}</select>
+    </>
+  );
+};
 ```

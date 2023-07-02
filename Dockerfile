@@ -1,11 +1,12 @@
-FROM node:18.15.0
+FROM node:16-alpine
+
+ARG BIT_VERSION
+
+RUN apk update && apk upgrade && apk add bash git && apk cache clean
 
 SHELL ["bash", "-c"]
 
-RUN apt update -y && apt upgrade -y && apt clean
-
-RUN npm i -g @teambit/bvm
-RUN bvm install
+RUN npm i -g @teambit/bvm && bvm install ${BIT_VERSION} && npm r -g @teambit/bvm
 
 ADD docker-start.bash /
 RUN chmod +x /docker-start.bash

@@ -1,5 +1,5 @@
 # This workflow hard-tags and exports soft-tagged components
-name: Tag and Export Components
+name: PR Check
 
 on:
   pull_request:

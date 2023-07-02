@@ -41,15 +41,9 @@
     },
     "themes/theme-selector": {
         "scope": "corpdk.cdk",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/themes/theme-selector",
-        "nextVersion": {
-            "version": "patch",
-            "message": "theme selector updated",
-            "username": "Debraj Kundu",
-            "email": "kundudebraj4272@gmail.com"
-        }
+        "rootDir": "components/corpdk/cdk/themes/theme-selector"
     },
     "$schema-version": "15.0.0"
 }

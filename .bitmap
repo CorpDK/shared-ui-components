@@ -43,7 +43,13 @@
         "scope": "corpdk.cdk",
         "version": "0.0.5",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/themes/theme-selector"
+        "rootDir": "components/corpdk/cdk/themes/theme-selector",
+        "nextVersion": {
+            "version": "patch",
+            "message": "theme selector updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        }
     },
     "$schema-version": "15.0.0"
 }

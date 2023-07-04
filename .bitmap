@@ -10,94 +10,34 @@
 
 {
     "envs/my-react-env": {
-        "scope": "",
-        "version": "",
+        "scope": "corpdk.react",
+        "version": "1.0.0",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/envs/my-react-env",
-        "nextVersion": {
-            "version": "1.0.0",
-            "message": "scope changed",
-            "username": "Debraj Kundu",
-            "email": "kundudebraj4272@gmail.com"
-        },
-        "config": {
-            "teambit.envs/env": {},
-            "teambit.envs/envs": {
-                "env": "teambit.envs/env"
-            }
-        }
+        "rootDir": "components/corpdk/react/envs/my-react-env"
     },
     "themes/color-provider": {
-        "scope": "",
-        "version": "",
+        "scope": "corpdk.react",
+        "version": "1.0.0",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/themes/color-provider",
-        "nextVersion": {
-            "version": "1.0.0",
-            "message": "scope changed",
-            "username": "Debraj Kundu",
-            "email": "kundudebraj4272@gmail.com"
-        },
-        "config": {
-            "corpdk.react/envs/my-react-env": {},
-            "teambit.envs/envs": {
-                "env": "corpdk.react/envs/my-react-env"
-            }
-        }
+        "rootDir": "components/corpdk/react/themes/color-provider"
     },
     "themes/font-provider": {
-        "scope": "",
-        "version": "",
+        "scope": "corpdk.react",
+        "version": "1.0.0",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/themes/font-provider",
-        "nextVersion": {
-            "version": "1.0.0",
-            "message": "scope changed",
-            "username": "Debraj Kundu",
-            "email": "kundudebraj4272@gmail.com"
-        },
-        "config": {
-            "corpdk.react/envs/my-react-env": {},
-            "teambit.envs/envs": {
-                "env": "corpdk.react/envs/my-react-env"
-            }
-        }
+        "rootDir": "components/corpdk/react/themes/font-provider"
     },
     "themes/theme-provider": {
-        "scope": "",
-        "version": "",
+        "scope": "corpdk.react",
+        "version": "1.0.0",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/themes/theme-provider",
-        "nextVersion": {
-            "version": "1.0.0",
-            "message": "scope changed",
-            "username": "Debraj Kundu",
-            "email": "kundudebraj4272@gmail.com"
-        },
-        "config": {
-            "corpdk.react/envs/my-react-env": {},
-            "teambit.envs/envs": {
-                "env": "corpdk.react/envs/my-react-env"
-            }
-        }
+        "rootDir": "components/corpdk/react/themes/theme-provider"
     },
     "themes/theme-selector": {
-        "scope": "",
-        "version": "",
+        "scope": "corpdk.react",
+        "version": "1.0.0",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/themes/theme-selector",
-        "nextVersion": {
-            "version": "1.0.0",
-            "message": "scope changed",
-            "username": "Debraj Kundu",
-            "email": "kundudebraj4272@gmail.com"
-        },
-        "config": {
-            "corpdk.react/envs/my-react-env": {},
-            "teambit.envs/envs": {
-                "env": "corpdk.react/envs/my-react-env"
-            }
-        }
+        "rootDir": "components/corpdk/react/themes/theme-selector"
     },
     "$schema-version": "15.0.0"
 }

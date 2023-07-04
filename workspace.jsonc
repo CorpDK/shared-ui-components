@@ -10,7 +10,7 @@
     "name": "shared-ui-components",
     "icon": "https://static.bit.dev/bit-logo.svg",
     "defaultDirectory": "components/{owner}/{scope}/{name}",
-    "defaultScope": "corpdk.cdk"
+    "defaultScope": "corpdk.react"
   },
   /**
    * main configuration for component dependency resolution.
@@ -23,7 +23,6 @@
     "policy": {
       "dependencies": {
         "@testing-library/react": "^14.0.0",
-        "classnames": "^2.3.2",
         "universal-cookie": "^4.0.4"
       },
       "peerDependencies": {}
@@ -54,7 +53,7 @@
         ],
         "packageJson": {
           "private": false,
-          "name": "@corpdk/{name}",
+          "name": "@corpdk/{scope}.{name}",
           "license": "MIT",
           "repository": {
             "type": "git",

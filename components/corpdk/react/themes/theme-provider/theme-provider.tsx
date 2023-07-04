@@ -1,5 +1,5 @@
-import { defaultColorTokenValues } from "@corpdk/themes.color-provider";
-import { defaultFontTokenValues } from "@corpdk/themes.font-provider";
+import { defaultColorTokenValues } from "@corpdk/react.themes.color-provider";
+import { defaultFontTokenValues } from "@corpdk/react.themes.font-provider";
 import React, { createContext, useContext, useMemo } from "react";
 import { globalStyleDark, globalStyleLight } from "./common-style";
 import "./common.scss";

@@ -11,9 +11,6 @@ importers:
       '@babel/runtime':
         specifier: 7.20.0
         version: registry.npmjs.org/@babel/runtime@7.20.0
-      classnames:
-        specifier: ^2.3.2
-        version: registry.npmjs.org/classnames@2.3.2
       core-js:
         specifier: ^3.0.0
         version: registry.npmjs.org/core-js@3.31.0
@@ -46,7 +43,7 @@ importers:
         specifier: 5.9.5
         version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
-  components/corpdk/cdk/envs/my-react-env:
+  components/corpdk/react/envs/my-react-env:
     dependencies:
       '@babel/runtime':
         specifier: 7.20.0
@@ -80,7 +77,7 @@ importers:
         specifier: 5.9.5
         version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
-  components/corpdk/cdk/themes/color-provider:
+  components/corpdk/react/themes/color-provider:
     dependencies:
       core-js:
         specifier: ^3.0.0
@@ -114,7 +111,7 @@ importers:
         specifier: 5.9.5
         version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
-  components/corpdk/cdk/themes/font-provider:
+  components/corpdk/react/themes/font-provider:
     dependencies:
       core-js:
         specifier: ^3.0.0
@@ -148,7 +145,7 @@ importers:
         specifier: 5.9.5
         version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
-  components/corpdk/cdk/themes/theme-dark:
+  components/corpdk/react/themes/theme-provider:
     dependencies:
       core-js:
         specifier: ^3.0.0
@@ -182,41 +179,7 @@ importers:
         specifier: 5.9.5
         version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
-  components/corpdk/cdk/themes/theme-provider:
-    dependencies:
-      core-js:
-        specifier: ^3.0.0
-        version: registry.npmjs.org/core-js@3.31.0
-      react:
-        specifier: ^16.8.0 || ^17.0.0
-        version: registry.npmjs.org/react@17.0.2
-      react-dom:
-        specifier: ^16.8.0 || ^17.0.0
-        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
-    devDependencies:
-      '@babel/runtime':
-        specifier: 7.20.0
-        version: registry.npmjs.org/@babel/runtime@7.20.0
-      '@testing-library/react':
-        specifier: ^14.0.0
-        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
-      '@types/jest':
-        specifier: ^26.0.0
-        version: registry.npmjs.org/@types/jest@26.0.20
-      '@types/node':
-        specifier: 12.20.4
-        version: registry.npmjs.org/@types/node@12.20.4
-      '@types/react':
-        specifier: ^17.0.8
-        version: registry.npmjs.org/@types/react@17.0.62
-      '@types/react-dom':
-        specifier: ^17.0.5
-        version: registry.npmjs.org/@types/react-dom@17.0.20
-      '@types/testing-library__jest-dom':
-        specifier: 5.9.5
-        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
-
-  components/corpdk/cdk/themes/theme-selector:
+  components/corpdk/react/themes/theme-selector:
     dependencies:
       core-js:
         specifier: ^3.0.0
@@ -253,80 +216,70 @@ importers:
         specifier: 5.9.5
         version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
-  node_modules/.bit_roots/corpdk.cdk_envs_my-react-env@0.0.2:
+  node_modules/.bit_roots/corpdk.react_envs_my-react-env:
     dependencies:
-      '@corpdk/envs.my-react-env':
+      '@corpdk/react.envs.my-react-env':
         specifier: workspace:*
-        version: file:components/corpdk/cdk/envs/my-react-env(react-dom@17.0.2)(react@17.0.2)
-      '@corpdk/themes.color-provider':
+        version: file:components/corpdk/react/envs/my-react-env(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.themes.color-provider':
         specifier: workspace:*
-        version: file:components/corpdk/cdk/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
-      '@corpdk/themes.font-provider':
+        version: file:components/corpdk/react/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.themes.font-provider':
         specifier: workspace:*
-        version: file:components/corpdk/cdk/themes/font-provider(react-dom@17.0.2)(react@17.0.2)
-      '@corpdk/themes.theme-dark':
+        version: file:components/corpdk/react/themes/font-provider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.themes.theme-provider':
         specifier: workspace:*
-        version: file:components/corpdk/cdk/themes/theme-dark(react-dom@17.0.2)(react@17.0.2)
-      '@corpdk/themes.theme-provider':
+        version: file:components/corpdk/react/themes/theme-provider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.themes.theme-selector':
         specifier: workspace:*
-        version: file:components/corpdk/cdk/themes/theme-provider(react-dom@17.0.2)(react@17.0.2)
-      '@corpdk/themes.theme-selector':
-        specifier: workspace:*
-        version: file:components/corpdk/cdk/themes/theme-selector(react-dom@17.0.2)(react@17.0.2)
+        version: file:components/corpdk/react/themes/theme-selector(react-dom@17.0.2)(react@17.0.2)
     dependenciesMeta:
-      '@corpdk/envs.my-react-env':
+      '@corpdk/react.envs.my-react-env':
         injected: true
-      '@corpdk/themes.color-provider':
+      '@corpdk/react.themes.color-provider':
         injected: true
-      '@corpdk/themes.font-provider':
+      '@corpdk/react.themes.font-provider':
         injected: true
-      '@corpdk/themes.theme-dark':
+      '@corpdk/react.themes.theme-provider':
         injected: true
-      '@corpdk/themes.theme-provider':
-        injected: true
-      '@corpdk/themes.theme-selector':
+      '@corpdk/react.themes.theme-selector':
         injected: true
 
   node_modules/.bit_roots/teambit.envs_env:
     dependencies:
-      '@corpdk/envs.my-react-env':
+      '@corpdk/react.envs.my-react-env':
         specifier: workspace:*
-        version: file:components/corpdk/cdk/envs/my-react-env(react-dom@17.0.2)(react@17.0.2)
-      '@corpdk/themes.color-provider':
+        version: file:components/corpdk/react/envs/my-react-env(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.themes.color-provider':
         specifier: workspace:*
-        version: file:components/corpdk/cdk/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
-      '@corpdk/themes.font-provider':
+        version: file:components/corpdk/react/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.themes.font-provider':
         specifier: workspace:*
-        version: file:components/corpdk/cdk/themes/font-provider(react-dom@17.0.2)(react@17.0.2)
-      '@corpdk/themes.theme-dark':
+        version: file:components/corpdk/react/themes/font-provider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.themes.theme-provider':
         specifier: workspace:*
-        version: file:components/corpdk/cdk/themes/theme-dark(react-dom@17.0.2)(react@17.0.2)
-      '@corpdk/themes.theme-provider':
+        version: file:components/corpdk/react/themes/theme-provider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.themes.theme-selector':
         specifier: workspace:*
-        version: file:components/corpdk/cdk/themes/theme-provider(react-dom@17.0.2)(react@17.0.2)
-      '@corpdk/themes.theme-selector':
-        specifier: workspace:*
-        version: file:components/corpdk/cdk/themes/theme-selector(react-dom@17.0.2)(react@17.0.2)
+        version: file:components/corpdk/react/themes/theme-selector(react-dom@17.0.2)(react@17.0.2)
     dependenciesMeta:
-      '@corpdk/envs.my-react-env':
+      '@corpdk/react.envs.my-react-env':
         injected: true
-      '@corpdk/themes.color-provider':
+      '@corpdk/react.themes.color-provider':
         injected: true
-      '@corpdk/themes.font-provider':
+      '@corpdk/react.themes.font-provider':
         injected: true
-      '@corpdk/themes.theme-dark':
+      '@corpdk/react.themes.theme-provider':
         injected: true
-      '@corpdk/themes.theme-provider':
-        injected: true
-      '@corpdk/themes.theme-selector':
+      '@corpdk/react.themes.theme-selector':
         injected: true
 
 packages:
 
-  file:components/corpdk/cdk/envs/my-react-env(react-dom@17.0.2)(react@17.0.2):
-    resolution: {directory: components/corpdk/cdk/envs/my-react-env, type: directory}
-    id: file:components/corpdk/cdk/envs/my-react-env
-    name: '@corpdk/envs.my-react-env'
+  file:components/corpdk/react/envs/my-react-env(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/envs/my-react-env, type: directory}
+    id: file:components/corpdk/react/envs/my-react-env
+    name: '@corpdk/react.envs.my-react-env'
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -343,10 +296,10 @@ packages:
       react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     dev: false
 
-  file:components/corpdk/cdk/themes/color-provider(react-dom@17.0.2)(react@17.0.2):
-    resolution: {directory: components/corpdk/cdk/themes/color-provider, type: directory}
-    id: file:components/corpdk/cdk/themes/color-provider
-    name: '@corpdk/themes.color-provider'
+  file:components/corpdk/react/themes/color-provider(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/themes/color-provider, type: directory}
+    id: file:components/corpdk/react/themes/color-provider
+    name: '@corpdk/react.themes.color-provider'
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -361,10 +314,10 @@ packages:
       react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     dev: false
 
-  file:components/corpdk/cdk/themes/font-provider(react-dom@17.0.2)(react@17.0.2):
-    resolution: {directory: components/corpdk/cdk/themes/font-provider, type: directory}
-    id: file:components/corpdk/cdk/themes/font-provider
-    name: '@corpdk/themes.font-provider'
+  file:components/corpdk/react/themes/font-provider(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/themes/font-provider, type: directory}
+    id: file:components/corpdk/react/themes/font-provider
+    name: '@corpdk/react.themes.font-provider'
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -379,10 +332,10 @@ packages:
       react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     dev: false
 
-  file:components/corpdk/cdk/themes/theme-dark(react-dom@17.0.2)(react@17.0.2):
-    resolution: {directory: components/corpdk/cdk/themes/theme-dark, type: directory}
-    id: file:components/corpdk/cdk/themes/theme-dark
-    name: '@corpdk/themes.theme-dark'
+  file:components/corpdk/react/themes/theme-provider(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/themes/theme-provider, type: directory}
+    id: file:components/corpdk/react/themes/theme-provider
+    name: '@corpdk/react.themes.theme-provider'
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -392,36 +345,17 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@corpdk/themes.theme-provider': file:components/corpdk/cdk/themes/theme-provider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.themes.color-provider': file:components/corpdk/react/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.themes.font-provider': file:components/corpdk/react/themes/font-provider(react-dom@17.0.2)(react@17.0.2)
       core-js: registry.npmjs.org/core-js@3.31.0
       react: registry.npmjs.org/react@17.0.2
       react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     dev: false
 
-  file:components/corpdk/cdk/themes/theme-provider(react-dom@17.0.2)(react@17.0.2):
-    resolution: {directory: components/corpdk/cdk/themes/theme-provider, type: directory}
-    id: file:components/corpdk/cdk/themes/theme-provider
-    name: '@corpdk/themes.theme-provider'
-    peerDependencies:
-      react: '*'
-      react-dom: '*'
-    peerDependenciesMeta:
-      react:
-        optional: true
-      react-dom:
-        optional: true
-    dependencies:
-      '@corpdk/themes.color-provider': file:components/corpdk/cdk/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
-      '@corpdk/themes.font-provider': file:components/corpdk/cdk/themes/font-provider(react-dom@17.0.2)(react@17.0.2)
-      core-js: registry.npmjs.org/core-js@3.31.0
-      react: registry.npmjs.org/react@17.0.2
-      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
-    dev: false
-
-  file:components/corpdk/cdk/themes/theme-selector(react-dom@17.0.2)(react@17.0.2):
-    resolution: {directory: components/corpdk/cdk/themes/theme-selector, type: directory}
-    id: file:components/corpdk/cdk/themes/theme-selector
-    name: '@corpdk/themes.theme-selector'
+  file:components/corpdk/react/themes/theme-selector(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/themes/theme-selector, type: directory}
+    id: file:components/corpdk/react/themes/theme-selector
+    name: '@corpdk/react.themes.theme-selector'
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -730,12 +664,6 @@ packages:
       ansi-styles: registry.npmjs.org/ansi-styles@4.3.0
       supports-color: registry.npmjs.org/supports-color@7.2.0
     dev: true
-
-  registry.npmjs.org/classnames@2.3.2:
-    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz}
-    name: classnames
-    version: 2.3.2
-    dev: false
 
   registry.npmjs.org/cleargraph@5.8.0:
     resolution: {integrity: sha512-72ZcdfWOwa1w3IfvKQFBp9lbgeZVlx9VFzUEKuGebaWprKIRs+kLIz48cNPAE8A6ZhuIbDsdFbYPQBH85+viRw==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/cleargraph/-/cleargraph-5.8.0.tgz}

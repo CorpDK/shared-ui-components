@@ -7,7 +7,7 @@ on:
     types: [ opened, edited, reopened, synchronize ]
 
 jobs:
-  tag-and-export:
+  pr-check:
     runs-on: ubuntu-latest
     env:
       BIT_VERSION: 0.1.74

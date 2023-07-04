@@ -13,37 +13,98 @@
         "scope": "corpdk.cdk",
         "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/envs/my-react-env"
+        "rootDir": "components/corpdk/cdk/envs/my-react-env",
+        "nextVersion": {
+            "version": "patch",
+            "message": "deprecating components",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "teambit.component/deprecation": {
+                "deprecate": true
+            }
+        }
     },
     "themes/color-provider": {
         "scope": "corpdk.cdk",
         "version": "0.0.6",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/themes/color-provider"
+        "rootDir": "components/corpdk/cdk/themes/color-provider",
+        "nextVersion": {
+            "version": "patch",
+            "message": "deprecating components",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "teambit.component/deprecation": {
+                "deprecate": true
+            }
+        }
     },
     "themes/font-provider": {
         "scope": "corpdk.cdk",
         "version": "0.0.5",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/themes/font-provider"
+        "rootDir": "components/corpdk/cdk/themes/font-provider",
+        "nextVersion": {
+            "version": "patch",
+            "message": "deprecating components",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "teambit.component/deprecation": {
+                "deprecate": true
+            }
+        }
     },
     "themes/theme-dark": {
         "scope": "corpdk.cdk",
         "version": "0.0.9",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/themes/theme-dark"
+        "rootDir": "components/corpdk/cdk/themes/theme-dark",
+        "nextVersion": {
+            "version": "patch",
+            "message": "deprecating components (bump dependencies versions)",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        }
     },
     "themes/theme-provider": {
         "scope": "corpdk.cdk",
         "version": "0.0.9",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/themes/theme-provider"
+        "rootDir": "components/corpdk/cdk/themes/theme-provider",
+        "nextVersion": {
+            "version": "patch",
+            "message": "deprecating components",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "teambit.component/deprecation": {
+                "deprecate": true
+            }
+        }
     },
     "themes/theme-selector": {
         "scope": "corpdk.cdk",
         "version": "0.0.6",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/themes/theme-selector"
+        "rootDir": "components/corpdk/cdk/themes/theme-selector",
+        "nextVersion": {
+            "version": "patch",
+            "message": "deprecating components",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "teambit.component/deprecation": {
+                "deprecate": true
+            }
+        }
     },
     "$schema-version": "15.0.0"
 }

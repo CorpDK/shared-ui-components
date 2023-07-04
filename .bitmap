@@ -29,20 +29,9 @@
     },
     "themes/theme-dark": {
         "scope": "corpdk.cdk",
-        "version": "0.0.10",
+        "version": "0.0.11",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/cdk/themes/theme-dark",
-        "nextVersion": {
-            "version": "patch",
-            "message": "deprecating theme-dark",
-            "username": "Debraj Kundu",
-            "email": "kundudebraj4272@gmail.com"
-        },
-        "config": {
-            "teambit.component/deprecation": {
-                "deprecate": true
-            }
-        }
+        "rootDir": "components/corpdk/cdk/themes/theme-dark"
     },
     "themes/theme-provider": {
         "scope": "corpdk.cdk",

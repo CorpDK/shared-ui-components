@@ -70,7 +70,7 @@
   },
   "teambit.generator/generator": {
     "envs": [
-      "corpdk.cdk/envs/my-react-env"
+      "corpdk.react/envs/my-react-env"
     ]
   }
 }

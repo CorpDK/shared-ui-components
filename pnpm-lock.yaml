@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      '@babel/runtime':
-        specifier: 7.20.0
-        version: registry.npmjs.org/@babel/runtime@7.20.0
+      classnames:
+        specifier: ^2.3.2
+        version: registry.npmjs.org/classnames@2.3.2
       core-js:
         specifier: ^3.0.0
         version: registry.npmjs.org/core-js@3.31.0
@@ -24,6 +24,349 @@ importers:
         specifier: ^4.0.4
         version: registry.npmjs.org/universal-cookie@4.0.4
     devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/display/avatar:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/display/badge:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/display/chip:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/display/divider:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/display/icon:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/display/list:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/display/popover:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/display/table:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/display/tooltip:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/display/typography:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
       '@testing-library/react':
         specifier: ^14.0.0
         version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
@@ -77,11 +420,17 @@ importers:
         specifier: 5.9.5
         version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
-  components/corpdk/react/themes/color-provider:
+  components/corpdk/react/feedback/alert:
     dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
       react:
         specifier: ^16.8.0 || ^17.0.0
         version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     devDependencies:
       '@babel/runtime':
         specifier: 7.20.0
@@ -98,12 +447,775 @@ importers:
       '@types/react':
         specifier: ^17.0.8
         version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/feedback/backdrop:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/feedback/dialog:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/feedback/progress:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/feedback/skeleton:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/feedback/snack-bar:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/auto-complete:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/button:
+    dependencies:
+      classnames:
+        specifier: ^2.3.2
+        version: registry.npmjs.org/classnames@2.3.2
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/button-group:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/checkbox:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/fab:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/form-field:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/radio:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/radio-group:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/rating:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/select:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/slider:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/input/toggle:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/surface/accordion:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/surface/app-bar:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/surface/card:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/surface/surface:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
+
+  components/corpdk/react/themes/color-provider:
+    dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
+      react:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: registry.npmjs.org/@testing-library/react@14.0.0(react-dom@17.0.2)(react@17.0.2)
+      '@types/jest':
+        specifier: ^26.0.0
+        version: registry.npmjs.org/@types/jest@26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: registry.npmjs.org/@types/node@12.20.4
+      '@types/react':
+        specifier: ^17.0.8
+        version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
   components/corpdk/react/themes/font-provider:
     dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
       react:
         specifier: ^16.8.0 || ^17.0.0
         version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     devDependencies:
       '@babel/runtime':
         specifier: 7.20.0
@@ -120,12 +1232,24 @@ importers:
       '@types/react':
         specifier: ^17.0.8
         version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
   components/corpdk/react/themes/theme-provider:
     dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
       react:
         specifier: ^16.8.0 || ^17.0.0
         version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     devDependencies:
       '@babel/runtime':
         specifier: 7.20.0
@@ -142,12 +1266,24 @@ importers:
       '@types/react':
         specifier: ^17.0.8
         version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
   components/corpdk/react/themes/theme-selector:
     dependencies:
+      core-js:
+        specifier: ^3.0.0
+        version: registry.npmjs.org/core-js@3.31.0
       react:
         specifier: ^16.8.0 || ^17.0.0
         version: registry.npmjs.org/react@17.0.2
+      react-dom:
+        specifier: ^16.8.0 || ^17.0.0
+        version: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
       universal-cookie:
         specifier: ^4.0.4
         version: registry.npmjs.org/universal-cookie@4.0.4
@@ -167,26 +1303,192 @@ importers:
       '@types/react':
         specifier: ^17.0.8
         version: registry.npmjs.org/@types/react@17.0.62
+      '@types/react-dom':
+        specifier: ^17.0.5
+        version: registry.npmjs.org/@types/react-dom@17.0.20
+      '@types/testing-library__jest-dom':
+        specifier: 5.9.5
+        version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
   node_modules/.bit_roots/corpdk.react_envs_my-react-env@1.0.0:
     dependencies:
+      '@corpdk/react.display.avatar':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/avatar(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.badge':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/badge(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.chip':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/chip(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.divider':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/divider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.icon':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/icon(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.list':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/list(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.popover':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/popover(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.table':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/table(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.tooltip':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/tooltip(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.typography':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/typography(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/react.envs.my-react-env':
         specifier: workspace:*
         version: file:components/corpdk/react/envs/my-react-env(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.alert':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/alert(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.backdrop':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/backdrop(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.dialog':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/dialog(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.progress':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/progress(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.skeleton':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/skeleton(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.snack-bar':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/snack-bar(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.auto-complete':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/auto-complete(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.button':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/button(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.button-group':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/button-group(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.checkbox':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/checkbox(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.fab':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/fab(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.form-field':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/form-field(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.radio':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/radio(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.radio-group':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/radio-group(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.rating':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/rating(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.select':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/select(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.slider':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/slider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.toggle':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/toggle(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.surface.accordion':
+        specifier: workspace:*
+        version: file:components/corpdk/react/surface/accordion(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.surface.app-bar':
+        specifier: workspace:*
+        version: file:components/corpdk/react/surface/app-bar(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.surface.card':
+        specifier: workspace:*
+        version: file:components/corpdk/react/surface/card(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.surface.surface':
+        specifier: workspace:*
+        version: file:components/corpdk/react/surface/surface(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/react.themes.color-provider':
         specifier: workspace:*
-        version: file:components/corpdk/react/themes/color-provider(react@17.0.2)
+        version: file:components/corpdk/react/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/react.themes.font-provider':
         specifier: workspace:*
-        version: file:components/corpdk/react/themes/font-provider(react@17.0.2)
+        version: file:components/corpdk/react/themes/font-provider(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/react.themes.theme-provider':
         specifier: workspace:*
-        version: file:components/corpdk/react/themes/theme-provider(react@17.0.2)
+        version: file:components/corpdk/react/themes/theme-provider(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/react.themes.theme-selector':
         specifier: workspace:*
-        version: file:components/corpdk/react/themes/theme-selector(react@17.0.2)
+        version: file:components/corpdk/react/themes/theme-selector(react-dom@17.0.2)(react@17.0.2)
     dependenciesMeta:
+      '@corpdk/react.display.avatar':
+        injected: true
+      '@corpdk/react.display.badge':
+        injected: true
+      '@corpdk/react.display.chip':
+        injected: true
+      '@corpdk/react.display.divider':
+        injected: true
+      '@corpdk/react.display.icon':
+        injected: true
+      '@corpdk/react.display.list':
+        injected: true
+      '@corpdk/react.display.popover':
+        injected: true
+      '@corpdk/react.display.table':
+        injected: true
+      '@corpdk/react.display.tooltip':
+        injected: true
+      '@corpdk/react.display.typography':
+        injected: true
       '@corpdk/react.envs.my-react-env':
+        injected: true
+      '@corpdk/react.feedback.alert':
+        injected: true
+      '@corpdk/react.feedback.backdrop':
+        injected: true
+      '@corpdk/react.feedback.dialog':
+        injected: true
+      '@corpdk/react.feedback.progress':
+        injected: true
+      '@corpdk/react.feedback.skeleton':
+        injected: true
+      '@corpdk/react.feedback.snack-bar':
+        injected: true
+      '@corpdk/react.input.auto-complete':
+        injected: true
+      '@corpdk/react.input.button':
+        injected: true
+      '@corpdk/react.input.button-group':
+        injected: true
+      '@corpdk/react.input.checkbox':
+        injected: true
+      '@corpdk/react.input.fab':
+        injected: true
+      '@corpdk/react.input.form-field':
+        injected: true
+      '@corpdk/react.input.radio':
+        injected: true
+      '@corpdk/react.input.radio-group':
+        injected: true
+      '@corpdk/react.input.rating':
+        injected: true
+      '@corpdk/react.input.select':
+        injected: true
+      '@corpdk/react.input.slider':
+        injected: true
+      '@corpdk/react.input.toggle':
+        injected: true
+      '@corpdk/react.surface.accordion':
+        injected: true
+      '@corpdk/react.surface.app-bar':
+        injected: true
+      '@corpdk/react.surface.card':
+        injected: true
+      '@corpdk/react.surface.surface':
         injected: true
       '@corpdk/react.themes.color-provider':
         injected: true
@@ -199,23 +1501,183 @@ importers:
 
   node_modules/.bit_roots/teambit.envs_env:
     dependencies:
+      '@corpdk/react.display.avatar':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/avatar(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.badge':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/badge(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.chip':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/chip(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.divider':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/divider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.icon':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/icon(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.list':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/list(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.popover':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/popover(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.table':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/table(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.tooltip':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/tooltip(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.display.typography':
+        specifier: workspace:*
+        version: file:components/corpdk/react/display/typography(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/react.envs.my-react-env':
         specifier: workspace:*
         version: file:components/corpdk/react/envs/my-react-env(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.alert':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/alert(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.backdrop':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/backdrop(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.dialog':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/dialog(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.progress':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/progress(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.skeleton':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/skeleton(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.feedback.snack-bar':
+        specifier: workspace:*
+        version: file:components/corpdk/react/feedback/snack-bar(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.auto-complete':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/auto-complete(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.button':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/button(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.button-group':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/button-group(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.checkbox':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/checkbox(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.fab':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/fab(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.form-field':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/form-field(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.radio':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/radio(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.radio-group':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/radio-group(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.rating':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/rating(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.select':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/select(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.slider':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/slider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.input.toggle':
+        specifier: workspace:*
+        version: file:components/corpdk/react/input/toggle(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.surface.accordion':
+        specifier: workspace:*
+        version: file:components/corpdk/react/surface/accordion(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.surface.app-bar':
+        specifier: workspace:*
+        version: file:components/corpdk/react/surface/app-bar(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.surface.card':
+        specifier: workspace:*
+        version: file:components/corpdk/react/surface/card(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.surface.surface':
+        specifier: workspace:*
+        version: file:components/corpdk/react/surface/surface(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/react.themes.color-provider':
         specifier: workspace:*
-        version: file:components/corpdk/react/themes/color-provider(react@17.0.2)
+        version: file:components/corpdk/react/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/react.themes.font-provider':
         specifier: workspace:*
-        version: file:components/corpdk/react/themes/font-provider(react@17.0.2)
+        version: file:components/corpdk/react/themes/font-provider(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/react.themes.theme-provider':
         specifier: workspace:*
-        version: file:components/corpdk/react/themes/theme-provider(react@17.0.2)
+        version: file:components/corpdk/react/themes/theme-provider(react-dom@17.0.2)(react@17.0.2)
       '@corpdk/react.themes.theme-selector':
         specifier: workspace:*
-        version: file:components/corpdk/react/themes/theme-selector(react@17.0.2)
+        version: file:components/corpdk/react/themes/theme-selector(react-dom@17.0.2)(react@17.0.2)
     dependenciesMeta:
+      '@corpdk/react.display.avatar':
+        injected: true
+      '@corpdk/react.display.badge':
+        injected: true
+      '@corpdk/react.display.chip':
+        injected: true
+      '@corpdk/react.display.divider':
+        injected: true
+      '@corpdk/react.display.icon':
+        injected: true
+      '@corpdk/react.display.list':
+        injected: true
+      '@corpdk/react.display.popover':
+        injected: true
+      '@corpdk/react.display.table':
+        injected: true
+      '@corpdk/react.display.tooltip':
+        injected: true
+      '@corpdk/react.display.typography':
+        injected: true
       '@corpdk/react.envs.my-react-env':
+        injected: true
+      '@corpdk/react.feedback.alert':
+        injected: true
+      '@corpdk/react.feedback.backdrop':
+        injected: true
+      '@corpdk/react.feedback.dialog':
+        injected: true
+      '@corpdk/react.feedback.progress':
+        injected: true
+      '@corpdk/react.feedback.skeleton':
+        injected: true
+      '@corpdk/react.feedback.snack-bar':
+        injected: true
+      '@corpdk/react.input.auto-complete':
+        injected: true
+      '@corpdk/react.input.button':
+        injected: true
+      '@corpdk/react.input.button-group':
+        injected: true
+      '@corpdk/react.input.checkbox':
+        injected: true
+      '@corpdk/react.input.fab':
+        injected: true
+      '@corpdk/react.input.form-field':
+        injected: true
+      '@corpdk/react.input.radio':
+        injected: true
+      '@corpdk/react.input.radio-group':
+        injected: true
+      '@corpdk/react.input.rating':
+        injected: true
+      '@corpdk/react.input.select':
+        injected: true
+      '@corpdk/react.input.slider':
+        injected: true
+      '@corpdk/react.input.toggle':
+        injected: true
+      '@corpdk/react.surface.accordion':
+        injected: true
+      '@corpdk/react.surface.app-bar':
+        injected: true
+      '@corpdk/react.surface.card':
+        injected: true
+      '@corpdk/react.surface.surface':
         injected: true
       '@corpdk/react.themes.color-provider':
         injected: true
@@ -227,6 +1689,186 @@ importers:
         injected: true
 
 packages:
+
+  file:components/corpdk/react/display/avatar(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/display/avatar, type: directory}
+    id: file:components/corpdk/react/display/avatar
+    name: '@corpdk/react.display.avatar'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/display/badge(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/display/badge, type: directory}
+    id: file:components/corpdk/react/display/badge
+    name: '@corpdk/react.display.badge'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/display/chip(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/display/chip, type: directory}
+    id: file:components/corpdk/react/display/chip
+    name: '@corpdk/react.display.chip'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/display/divider(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/display/divider, type: directory}
+    id: file:components/corpdk/react/display/divider
+    name: '@corpdk/react.display.divider'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/display/icon(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/display/icon, type: directory}
+    id: file:components/corpdk/react/display/icon
+    name: '@corpdk/react.display.icon'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/display/list(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/display/list, type: directory}
+    id: file:components/corpdk/react/display/list
+    name: '@corpdk/react.display.list'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/display/popover(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/display/popover, type: directory}
+    id: file:components/corpdk/react/display/popover
+    name: '@corpdk/react.display.popover'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/display/table(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/display/table, type: directory}
+    id: file:components/corpdk/react/display/table
+    name: '@corpdk/react.display.table'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/display/tooltip(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/display/tooltip, type: directory}
+    id: file:components/corpdk/react/display/tooltip
+    name: '@corpdk/react.display.tooltip'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/display/typography(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/display/typography, type: directory}
+    id: file:components/corpdk/react/display/typography
+    name: '@corpdk/react.display.typography'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
 
   file:components/corpdk/react/envs/my-react-env(react-dom@17.0.2)(react@17.0.2):
     resolution: {directory: components/corpdk/react/envs/my-react-env, type: directory}
@@ -248,58 +1890,475 @@ packages:
       react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     dev: false
 
-  file:components/corpdk/react/themes/color-provider(react@17.0.2):
+  file:components/corpdk/react/feedback/alert(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/feedback/alert, type: directory}
+    id: file:components/corpdk/react/feedback/alert
+    name: '@corpdk/react.feedback.alert'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/feedback/backdrop(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/feedback/backdrop, type: directory}
+    id: file:components/corpdk/react/feedback/backdrop
+    name: '@corpdk/react.feedback.backdrop'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/feedback/dialog(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/feedback/dialog, type: directory}
+    id: file:components/corpdk/react/feedback/dialog
+    name: '@corpdk/react.feedback.dialog'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/feedback/progress(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/feedback/progress, type: directory}
+    id: file:components/corpdk/react/feedback/progress
+    name: '@corpdk/react.feedback.progress'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/feedback/skeleton(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/feedback/skeleton, type: directory}
+    id: file:components/corpdk/react/feedback/skeleton
+    name: '@corpdk/react.feedback.skeleton'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/feedback/snack-bar(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/feedback/snack-bar, type: directory}
+    id: file:components/corpdk/react/feedback/snack-bar
+    name: '@corpdk/react.feedback.snack-bar'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/auto-complete(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/auto-complete, type: directory}
+    id: file:components/corpdk/react/input/auto-complete
+    name: '@corpdk/react.input.auto-complete'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/button(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/button, type: directory}
+    id: file:components/corpdk/react/input/button
+    name: '@corpdk/react.input.button'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      classnames: registry.npmjs.org/classnames@2.3.2
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/button-group(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/button-group, type: directory}
+    id: file:components/corpdk/react/input/button-group
+    name: '@corpdk/react.input.button-group'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/checkbox(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/checkbox, type: directory}
+    id: file:components/corpdk/react/input/checkbox
+    name: '@corpdk/react.input.checkbox'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/fab(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/fab, type: directory}
+    id: file:components/corpdk/react/input/fab
+    name: '@corpdk/react.input.fab'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/form-field(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/form-field, type: directory}
+    id: file:components/corpdk/react/input/form-field
+    name: '@corpdk/react.input.form-field'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/radio(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/radio, type: directory}
+    id: file:components/corpdk/react/input/radio
+    name: '@corpdk/react.input.radio'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/radio-group(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/radio-group, type: directory}
+    id: file:components/corpdk/react/input/radio-group
+    name: '@corpdk/react.input.radio-group'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/rating(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/rating, type: directory}
+    id: file:components/corpdk/react/input/rating
+    name: '@corpdk/react.input.rating'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/select(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/select, type: directory}
+    id: file:components/corpdk/react/input/select
+    name: '@corpdk/react.input.select'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/slider(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/slider, type: directory}
+    id: file:components/corpdk/react/input/slider
+    name: '@corpdk/react.input.slider'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/input/toggle(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/input/toggle, type: directory}
+    id: file:components/corpdk/react/input/toggle
+    name: '@corpdk/react.input.toggle'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/surface/accordion(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/surface/accordion, type: directory}
+    id: file:components/corpdk/react/surface/accordion
+    name: '@corpdk/react.surface.accordion'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/surface/app-bar(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/surface/app-bar, type: directory}
+    id: file:components/corpdk/react/surface/app-bar
+    name: '@corpdk/react.surface.app-bar'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/surface/card(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/surface/card, type: directory}
+    id: file:components/corpdk/react/surface/card
+    name: '@corpdk/react.surface.card'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/surface/surface(react-dom@17.0.2)(react@17.0.2):
+    resolution: {directory: components/corpdk/react/surface/surface, type: directory}
+    id: file:components/corpdk/react/surface/surface
+    name: '@corpdk/react.surface.surface'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    dev: false
+
+  file:components/corpdk/react/themes/color-provider(react-dom@17.0.2)(react@17.0.2):
     resolution: {directory: components/corpdk/react/themes/color-provider, type: directory}
     id: file:components/corpdk/react/themes/color-provider
     name: '@corpdk/react.themes.color-provider'
     peerDependencies:
       react: '*'
+      react-dom: '*'
     peerDependenciesMeta:
       react:
         optional: true
+      react-dom:
+        optional: true
     dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
       react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     dev: false
 
-  file:components/corpdk/react/themes/font-provider(react@17.0.2):
+  file:components/corpdk/react/themes/font-provider(react-dom@17.0.2)(react@17.0.2):
     resolution: {directory: components/corpdk/react/themes/font-provider, type: directory}
     id: file:components/corpdk/react/themes/font-provider
     name: '@corpdk/react.themes.font-provider'
     peerDependencies:
       react: '*'
+      react-dom: '*'
     peerDependenciesMeta:
       react:
         optional: true
+      react-dom:
+        optional: true
     dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
       react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     dev: false
 
-  file:components/corpdk/react/themes/theme-provider(react@17.0.2):
+  file:components/corpdk/react/themes/theme-provider(react-dom@17.0.2)(react@17.0.2):
     resolution: {directory: components/corpdk/react/themes/theme-provider, type: directory}
     id: file:components/corpdk/react/themes/theme-provider
     name: '@corpdk/react.themes.theme-provider'
     peerDependencies:
       react: '*'
+      react-dom: '*'
     peerDependenciesMeta:
       react:
         optional: true
+      react-dom:
+        optional: true
     dependencies:
-      '@corpdk/react.themes.color-provider': file:components/corpdk/react/themes/color-provider(react@17.0.2)
-      '@corpdk/react.themes.font-provider': file:components/corpdk/react/themes/font-provider(react@17.0.2)
+      '@corpdk/react.themes.color-provider': file:components/corpdk/react/themes/color-provider(react-dom@17.0.2)(react@17.0.2)
+      '@corpdk/react.themes.font-provider': file:components/corpdk/react/themes/font-provider(react-dom@17.0.2)(react@17.0.2)
+      core-js: registry.npmjs.org/core-js@3.31.0
       react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
     dev: false
 
-  file:components/corpdk/react/themes/theme-selector(react@17.0.2):
+  file:components/corpdk/react/themes/theme-selector(react-dom@17.0.2)(react@17.0.2):
     resolution: {directory: components/corpdk/react/themes/theme-selector, type: directory}
     id: file:components/corpdk/react/themes/theme-selector
     name: '@corpdk/react.themes.theme-selector'
     peerDependencies:
       react: '*'
+      react-dom: '*'
     peerDependenciesMeta:
       react:
         optional: true
+      react-dom:
+        optional: true
     dependencies:
+      core-js: registry.npmjs.org/core-js@3.31.0
       react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
       universal-cookie: registry.npmjs.org/universal-cookie@4.0.4
     dev: false
 
@@ -596,6 +2655,12 @@ packages:
       ansi-styles: registry.npmjs.org/ansi-styles@4.3.0
       supports-color: registry.npmjs.org/supports-color@7.2.0
     dev: true
+
+  registry.npmjs.org/classnames@2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz}
+    name: classnames
+    version: 2.3.2
+    dev: false
 
   registry.npmjs.org/cleargraph@5.8.0:
     resolution: {integrity: sha512-72ZcdfWOwa1w3IfvKQFBp9lbgeZVlx9VFzUEKuGebaWprKIRs+kLIz48cNPAE8A6ZhuIbDsdFbYPQBH85+viRw==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/cleargraph/-/cleargraph-5.8.0.tgz}

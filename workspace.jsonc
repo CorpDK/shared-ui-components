@@ -22,7 +22,8 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@testing-library/react": "^14.0.0",
+        "@testing-library/react": "^12.1.5",
+        "classnames": "^2.3.2",
         "universal-cookie": "^4.0.4"
       },
       "peerDependencies": {}
@@ -70,7 +71,7 @@
   },
   "teambit.generator/generator": {
     "envs": [
-      "corpdk.cdk/envs/my-react-env"
+      "corpdk.react/envs/my-react-env"
     ]
   }
 }

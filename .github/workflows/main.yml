@@ -11,12 +11,15 @@ on:
 jobs:
   tag-and-export:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
     if: "!contains(github.event.head_commit.message, '[skip-ci]')"
     env:
       BIT_TOKEN: ${{ secrets.BIT_TOKEN }}
       NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       NPM_CONFIG_PROVENANCE: true
-      BIT_VERSION: 0.1.74
+      BIT_VERSION: 0.2.14
 
     steps:
     - name: Checkout
@@ -24,7 +27,7 @@ jobs:
     - name: Setup Node.js environment
       uses: actions/setup-node@v3
       with:
-        node-version: '16.x'
+        node-version: '18.x'
         registry-url: 'https://registry.npmjs.org'
     - name: Install Bit Version Manager 
       run: npm i -g @teambit/bvm
@@ -47,8 +50,8 @@ jobs:
       run: bit export
     - name: Commit changes made to .bitmap
       run: |
-        git config --global user.name '${{ github.actor }}'
-        git config --global user.email '${{ github.actor }}@users.noreply.github.com'
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
         git add .bitmap
         git commit -m "update .bitmap with new component versions (automated). [skip-ci]"
         git push

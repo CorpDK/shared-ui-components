@@ -5,8 +5,8 @@ const defaultThemeSelectorValues = {
   dark: false,
   theme: "default",
   availableThemes: ["default"],
-  setDark: (value: boolean) => {},
-  setTheme: (value: string) => {},
+  setDark: (value: boolean) => {}, // eslint-disable-line @typescript-eslint/no-unused-vars
+  setTheme: (value: string) => {}, // eslint-disable-line @typescript-eslint/no-unused-vars
 };
 
 const ThemeSelectorContext = createContext(defaultThemeSelectorValues);
@@ -24,8 +24,8 @@ export const getInitialThemeSchemeOptions = () => {
   const dark: boolean = cookie.get("dark-mode");
   const theme: string = cookie.get("theme-name");
   return {
-    dark: dark ? dark : getIfUserPreferrsDarkMode(),
-    theme: theme ? theme : "default",
+    dark: dark || getIfUserPreferrsDarkMode(),
+    theme: theme || "default",
   };
 };
 

@@ -11,5 +11,5 @@ export const Button = () => {
     padding: "var(--button-padding-medium)",
     fontWeight: "var(--button-font-weight)",
   };
-  return <button style={myStyle}>A Button Styled using CSS Props</button>;
+  return <button type='button' style={myStyle}>A Button Styled using CSS Props</button>;
 };

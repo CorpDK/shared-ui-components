@@ -23,6 +23,19 @@ export type ThemeProviderProps = {
   children?: React.ReactNode;
 };
 
+const computeCssVars = (theme): React.CSSProperties => {
+  return Object.entries(theme)
+    .map(([key, val]: [string, any]): [string, any] => {
+      const varName = key.replace(/[A-Z]/g, "-$&").toLowerCase();
+      const varKey = `--${varName}`;
+      return [varKey, val];
+    })
+    .reduce((acc, [key, val]) => {
+      acc[key] = val;
+      return acc;
+    }, {});
+}
+
 const ThemeProvider = ({
   children,
   overrides,
@@ -41,7 +54,7 @@ const ThemeProvider = ({
   const globalStyle = dark ? globalStyleDark : globalStyleLight;
 
   let style = "";
-  let styleObj = { ...cssVars, ...globalStyle };
+  const styleObj = { ...cssVars, ...globalStyle };
   Object.entries(styleObj).forEach(([k, v]: [string, any]) => {
     style = `${style}${style !== "" ? " " : ""}${k}: ${v};`;
   });
@@ -53,18 +66,5 @@ const ThemeProvider = ({
     </>
   );
 };
-
-const computeCssVars = (theme): React.CSSProperties => {
-  return Object.entries(theme)
-    .map(([key, val]: [string, any]): [string, any] => {
-      const varName = key.replace(/[A-Z]/g, "-$&").toLowerCase();
-      const varKey = `--${varName}`;
-      return [varKey, val];
-    })
-    .reduce((acc, [key, val]) => {
-      acc[key] = val;
-      return acc;
-    }, {});
-}
 
 export const Theme = { ThemeProvider, useTheme };

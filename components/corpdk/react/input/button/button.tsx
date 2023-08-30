@@ -10,6 +10,76 @@ export type ButtonProps = {
   variant?: "filled" | "outlined" | "text" | "elevated" | "tonal";
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
+function FilledButton({ children, className, ...props }: ButtonProps) {
+  return (
+    <>
+      <button
+        type="button"
+        className={classNames("filledButton", className)}
+        {...props}
+      >
+        {children}
+      </button>
+    </>
+  );
+}
+
+function OutlinedButton({ children, className, ...props }: ButtonProps) {
+  return (
+    <>
+      <button
+        type="button"
+        className={classNames("outlinedButton", className)}
+        {...props}
+      >
+        {children}
+      </button>
+    </>
+  );
+}
+
+function TextButton({ children, className, ...props }: ButtonProps) {
+  return (
+    <>
+      <button
+        type="button"
+        className={classNames("textButton", className)}
+        {...props}
+      >
+        {children}
+      </button>
+    </>
+  );
+}
+
+function ElevatedButton({ children, className, ...props }: ButtonProps) {
+  return (
+    <>
+      <button
+        type="button"
+        className={classNames("elevatedButton", className)}
+        {...props}
+      >
+        {children}
+      </button>
+    </>
+  );
+}
+
+function TonalButton({ children, className, ...props }: ButtonProps) {
+  return (
+    <>
+      <button
+        type="button"
+        className={classNames("tonalButton", className)}
+        {...props}
+      >
+        {children}
+      </button>
+    </>
+  );
+}
+
 export function Button({
   children,
   variant = "filled",
@@ -26,55 +96,7 @@ export function Button({
       return <TextButton {...props}>{children}</TextButton>;
     case "tonal":
       return <TonalButton {...props}>{children}</TonalButton>;
+    default:
+      return <FilledButton {...props}>{children}</FilledButton>;
   }
-}
-
-function FilledButton({ children, className, ...props }: ButtonProps) {
-  return (
-    <>
-      <button className={classNames("filledButton", className)} {...props}>
-        {children}
-      </button>
-    </>
-  );
-}
-
-function OutlinedButton({ children, className, ...props }: ButtonProps) {
-  return (
-    <>
-      <button className={classNames("outlinedButton", className)} {...props}>
-        {children}
-      </button>
-    </>
-  );
-}
-
-function TextButton({ children, className, ...props }: ButtonProps) {
-  return (
-    <>
-      <button className={classNames("textButton", className)} {...props}>
-        {children}
-      </button>
-    </>
-  );
-}
-
-function ElevatedButton({ children, className, ...props }: ButtonProps) {
-  return (
-    <>
-      <button className={classNames("elevatedButton", className)} {...props}>
-        {children}
-      </button>
-    </>
-  );
-}
-
-function TonalButton({ children, className, ...props }: ButtonProps) {
-  return (
-    <>
-      <button className={classNames("tonalButton", className)} {...props}>
-        {children}
-      </button>
-    </>
-  );
 }

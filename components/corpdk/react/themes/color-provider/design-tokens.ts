@@ -185,7 +185,7 @@ export const defaultColorTokenValues = {
   mdSysColorSurfaceContainerLowestDark: "#0F0D13",
   mdSysColorSurfaceBrightDark: "#3B383E",
   mdSysColorSurfaceDimDark: "#141218",
-  //test
+  // test
   primaryColorBackground: "#568cb0",
   primaryColorText: "#ebebeb",
 };

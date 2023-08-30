@@ -13,223 +13,666 @@
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/display/avatar"
+        "rootDir": "components/corpdk/react/display/avatar",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "display/badge": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/display/badge"
+        "rootDir": "components/corpdk/react/display/badge",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "display/chip": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/display/chip"
+        "rootDir": "components/corpdk/react/display/chip",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "display/divider": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/display/divider"
+        "rootDir": "components/corpdk/react/display/divider",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "display/icon": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/display/icon"
+        "rootDir": "components/corpdk/react/display/icon",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "display/list": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/display/list"
+        "rootDir": "components/corpdk/react/display/list",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "display/popover": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/display/popover"
+        "rootDir": "components/corpdk/react/display/popover",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "display/table": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/display/table"
+        "rootDir": "components/corpdk/react/display/table",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "display/tooltip": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/display/tooltip"
+        "rootDir": "components/corpdk/react/display/tooltip",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "display/typography": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/display/typography"
+        "rootDir": "components/corpdk/react/display/typography",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
-    "envs/my-react-env": {
-        "scope": "corpdk.react",
-        "version": "1.0.0",
+    "envs/react18": {
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/envs/my-react-env"
+        "rootDir": "components/corpdk/react/envs/react18",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "teambit.envs/envs": {
+                "env": "teambit.envs/env"
+            }
+        }
     },
     "feedback/alert": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/feedback/alert"
+        "rootDir": "components/corpdk/react/feedback/alert",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "feedback/backdrop": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/feedback/backdrop"
+        "rootDir": "components/corpdk/react/feedback/backdrop",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "feedback/dialog": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/feedback/dialog"
+        "rootDir": "components/corpdk/react/feedback/dialog",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "feedback/progress": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/feedback/progress"
+        "rootDir": "components/corpdk/react/feedback/progress",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "feedback/skeleton": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/feedback/skeleton"
+        "rootDir": "components/corpdk/react/feedback/skeleton",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "feedback/snack-bar": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/feedback/snack-bar"
+        "rootDir": "components/corpdk/react/feedback/snack-bar",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/auto-complete": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/auto-complete"
+        "rootDir": "components/corpdk/react/input/auto-complete",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/button": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/button"
+        "rootDir": "components/corpdk/react/input/button",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/button-group": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/button-group"
+        "rootDir": "components/corpdk/react/input/button-group",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/checkbox": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/checkbox"
+        "rootDir": "components/corpdk/react/input/checkbox",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/fab": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/fab"
+        "rootDir": "components/corpdk/react/input/fab",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/form-field": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/form-field"
+        "rootDir": "components/corpdk/react/input/form-field",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/radio": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/radio"
+        "rootDir": "components/corpdk/react/input/radio",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/radio-group": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/radio-group"
+        "rootDir": "components/corpdk/react/input/radio-group",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/rating": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/rating"
+        "rootDir": "components/corpdk/react/input/rating",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/select": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/select"
+        "rootDir": "components/corpdk/react/input/select",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/slider": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/slider"
+        "rootDir": "components/corpdk/react/input/slider",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "input/toggle": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/input/toggle"
+        "rootDir": "components/corpdk/react/input/toggle",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "surface/accordion": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/surface/accordion"
+        "rootDir": "components/corpdk/react/surface/accordion",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "surface/app-bar": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/surface/app-bar"
+        "rootDir": "components/corpdk/react/surface/app-bar",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "surface/card": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/surface/card"
+        "rootDir": "components/corpdk/react/surface/card",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "surface/surface": {
         "scope": "corpdk.react",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/surface/surface"
+        "rootDir": "components/corpdk/react/surface/surface",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "themes/color-provider": {
         "scope": "corpdk.react",
         "version": "1.0.0",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/themes/color-provider"
+        "rootDir": "components/corpdk/react/themes/color-provider",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "themes/font-provider": {
         "scope": "corpdk.react",
         "version": "1.0.0",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/themes/font-provider"
+        "rootDir": "components/corpdk/react/themes/font-provider",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "themes/theme-provider": {
         "scope": "corpdk.react",
         "version": "1.0.0",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/themes/theme-provider"
+        "rootDir": "components/corpdk/react/themes/theme-provider",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "themes/theme-selector": {
         "scope": "corpdk.react",
         "version": "1.0.0",
         "mainFile": "index.ts",
-        "rootDir": "components/corpdk/react/themes/theme-selector"
+        "rootDir": "components/corpdk/react/themes/theme-selector",
+        "nextVersion": {
+            "version": "patch",
+            "message": "react environment updated",
+            "username": "Debraj Kundu",
+            "email": "kundudebraj4272@gmail.com"
+        },
+        "config": {
+            "corpdk.react/envs/react18": {},
+            "teambit.envs/envs": {
+                "env": "corpdk.react/envs/react18"
+            }
+        }
     },
     "$schema-version": "15.0.0"
 }

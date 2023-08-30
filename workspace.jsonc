@@ -22,9 +22,14 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@testing-library/react": "^12.1.5",
-        "classnames": "^2.3.2",
-        "universal-cookie": "^4.0.4"
+        "@teambit/defender.eslint-linter": "^1.0.7",
+        "@teambit/defender.jest-tester": "^1.0.2",
+        "@teambit/defender.prettier-formatter": "^1.0.2",
+        "@teambit/dependencies.modules.packages-excluder": "^1.0.2",
+        "@teambit/preview.react-preview": "^1.0.2",
+        "@teambit/react.mounter": "^1.0.1",
+        "@teambit/react.react-env": "^1.0.6",
+        "@teambit/typescript.typescript-compiler": "^2.0.6"
       },
       "peerDependencies": {}
     },
@@ -71,7 +76,7 @@
   },
   "teambit.generator/generator": {
     "envs": [
-      "corpdk.react/envs/my-react-env"
+      "corpdk.react/envs/react18"
     ]
   }
 }
